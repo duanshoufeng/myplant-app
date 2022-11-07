@@ -1,27 +1,31 @@
-# Fuse - Admin template and Starter project for Angular
+## Introduction
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
+This is the client of MyPlant App:
 
-## Development server
+- https://myplant-app.herokuapp.com
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Setup
 
-## Code scaffolding
+Make sure to follow all these steps exactly as explained below. Do not miss any steps or you won't be able to run this application.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Download and run the backend
 
-## Build
+To run this project, you need to download and run the backend first.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+https://github.com/duanshoufeng/myplant-api
 
-## Running unit tests
+Once you download it, make sure it's running.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Install the Dependencies
 
-## Running end-to-end tests
+Next, from the project folder, install the dependencies:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice.  To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    npm i
 
-## Further help
+### Start the Server
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    ng serve
+
+Open up your browser and head over to:
+
+http://localhost:4200/
